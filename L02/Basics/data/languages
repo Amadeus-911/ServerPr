@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "Engilish",
+        "rate": "100%"
+    },
+    "2": {
+        "name": "Spanish",
+        "rate": "55%"
+    },
+    "3": {
+        "name": "Japanese",
+        "rate": "25%"
+    }
+}

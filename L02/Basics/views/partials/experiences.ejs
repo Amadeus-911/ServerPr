@@ -1,0 +1,19 @@
+<div class="w3-container w3-card w3-white">
+    <h2 class="w3-text-grey w3-padding-16">
+      <i
+      class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+      ></i
+      >Work Experience
+    </h2>
+    <% for(let i = 0; i<experiences.length; i++){ %>
+    <div class="w3-container">
+      <h5 class="w3-opacity"><b><%= experiences[i]["job"] %></b></h5>
+      <h6 class="w3-text-teal">
+        <i class="fa fa-calendar fa-fw w3-margin-right"></i><%= experiences[i]["duration"] %>
+      </h6>
+      <p><%= experiences[i]["text"] %></p>
+      <hr />
+    </div>
+    <%}%>
+  </div>
+  

@@ -1,0 +1,17 @@
+{
+    "1": {
+        "job": "Front End Developer / w3schools.com",
+        "duration": "Jan 2015 - Current",
+        "text": "Front- end developer at w3schools"
+    },
+    "2": {
+        "job": "Web Developer / tinder.com",
+        "duration": "Mar 2012 - Dec 2014",
+        "text": "Web developer at Tinder"
+    },
+    "3": {
+        "job": "Graphic Designer / designsomething.com",
+        "duration": "Jun 2010 - Mar 2012",
+        "text": "First job as a Graphics Desinger"
+    }
+}
