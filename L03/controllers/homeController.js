@@ -10,17 +10,16 @@ const addBooks = (req, res)=>{
 }
 
 const books = (req, res) =>{
-    let data
-    Book.find((err, docs) => {
-        if (!err) {
-            res.render("books", {
-                data: docs
-            });
-        } else {
-            console.log('Failed to retrieve : ' + err);
+    var data
+    const query = Book.find()
+    query.select("name author genre")
+    query.exec((err, booklist)=>{
+        if(err) console.log("ERRRRROOORRR: " + err)
+        else{
+            res.render('books', {data: booklist})
         }
-    });
-    res.render('books', data)
+    })
+    
 }
 
 

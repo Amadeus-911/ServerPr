@@ -4,7 +4,6 @@ const bodyParser = require('body-parser')
 const urlEncoded = bodyParser.urlencoded({extended:false})
 const homeController = require("./controllers/homeController")
 
-console.log(homeController)
 router.get('/home', homeController.getHome)
 router.get('/addBooks', homeController.addBooks)
 router.get('/books', homeController.books)
